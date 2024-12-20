@@ -1,3 +1,3 @@
-Tohle je jeden z mých dvou projektu. Prvni byl RC auticko na ktere se mi vsak vsak nepovedlo. Tím to ale nekončí a ja se ho pokusim zprovoznit přes prazdniny. Tady je zatím můj druhy projek.
+Tohle je jeden z mých dvou projektů. První byl RC autíčko, které se mi však nepovedlo, a ještě mi také nepřišly všechny díly. Tím to ale nekončí a já se ho pokusím zprovoznit přes prázdniny. Tady je zatím můj druhý projekt.
 
-Je to karetni hra zvana black jack. Delal jsem to sam v pythonu. Delal jsem v tom poprvé a jsem samouk proto to neni nic moc.
+Je to karetní hra zvaná Black Jack. Dělal jsem to sám v Pythonu. Pracoval jsem s tím poprvé a jsem samouk, proto to není nic moc.
