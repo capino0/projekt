@@ -2,7 +2,7 @@ Tohle je jeden z mých dvou projektů. První byl RC autíčko, které se mi vš
 
 Zadal jsem si že se chci naučit a zlepšit v programováni jelikož bych se tim jednou chtěl živit.
 
-Toto je jeden z mých prvních pokusů, karetní hra zvaná Black Jack. Dělal jsem to sám v Pythonu. Pracoval jsem s tím poprvé a jsem samouk, proto to není nic moc. Cílem však bylo porozumnět programovacimu jazyku Python jako takovému. Jelikož jsme se ve druháku učili v Pythonu jen jedno pololeti věci jsem chápal docela rychle. Musím však poděkovat mému spolubydlícímu Nathanovi z T3B že mi tento projekt vůbec navrhl k realizaci a nasledné pomoci když jsem byl v koncích.
+Toto je jeden z mých prvních pokusů, karetní hra zvaná Black Jack. Dělal jsem to sám v Pythonu. Pracoval jsem s tím poprvé a jsem samouk, proto to není nic moc. Cílem však bylo porozumnět programovacimu jazyku Python jako takovému. Jelikož jsme se ve druháku učili v Pythonu jen jedno pololeti věci jsem chápal docela rychle. Musím však poděkovat mému spolubydlícímu Nathanovi z T3B že mi tento projekt vůbec navrhl k realizaci a nasledné pomoci když jsem nemohl najít kde v kódu byla chyba.
 
 Nástroje: 
 
