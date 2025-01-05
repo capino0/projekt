@@ -9,8 +9,9 @@ Toto je jeden z mých prvních pokusů, karetní hra zvaná Black Jack. Dělal j
 --------------------------
 
 RC auticko:
-Nemam doma ješte všechny díly. Chybí mi kola a transmitor s ovladanim. Mam připraveny doma všechny díly (motor na pohon a zatačení, kabely, sadu ozubených koleček a 3.7V baterku) až na ty kola a ovladaci system. Moc se omlouvam že nemam na ukazku žádný pokrok.
-Bohužel jsem človek co když něco začne dělat musi to mit nejlepe hotove ten den. A jelikož mi tyto věci ješte nepřisly neměl jsem to jak sprovoznit.
+
+Nemám doma ješte všechny díly. Chybí mi kola a transmitor s ovládáním. Mimo to mám připraveny doma všechny díly (motor na pohon a zatačení, kabely, sadu ozubených koleček a 3.7V baterku) až na ty kola a ovládací systém. Moc se omlouvám že nemám na ukázku žádný pokrok.
+Bohužel jsem človek co když něco začne dělat musí to mít nejlépe hotové ten den. A jelikož mi tyto věci ješte nepřisly neměl jsem to jak zprovoznit tak jsem se na to s prominutim vykašlal. Jediné co jsem udělal bylo vyříznutí podstavy auta z kartonu. Rád bych vám to sem ukázal ale momentálně (5.1.2025) to mám u druhého z rodičů a toho neuvidim az do příštího týdne.
 
 --------------------------
 
