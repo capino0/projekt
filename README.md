@@ -1,8 +1,18 @@
 Tohle je jeden z mých dvou projektů. První byl RC autíčko, které se mi však nepovedlo, a ještě mi také nepřišly všechny díly. Tím to ale nekončí a já se ho pokusím zprovoznit přes prázdniny. Tady je zatím můj druhý projekt.
 
+--------------------------
+
 Zadal jsem si že se chci naučit a zlepšit v programováni jelikož bych se tim jednou chtěl živit.
 
 Toto je jeden z mých prvních pokusů, karetní hra zvaná Black Jack. Dělal jsem to sám v Pythonu. Pracoval jsem s tím poprvé a jsem samouk, proto to není nic moc. Cílem však bylo porozumnět programovacimu jazyku Python jako takovému. Jelikož jsme se ve druháku učili v Pythonu jen jedno pololeti věci jsem chápal docela rychle. Musím však poděkovat mému spolubydlícímu Nathanovi z T3B že mi tento projekt vůbec navrhl k realizaci a nasledné pomoci když jsem nemohl najít kde v kódu byla chyba.
+
+--------------------------
+
+RC auticko:
+Nemam doma ješte všechny díly. Chybí mi kola a transmitor s ovladanim. Mam připraveny doma všechny díly (motor na pohon a zatačení, kabely, sadu ozubených koleček a 3.7V baterku) až na ty kola a ovladaci system. Moc se omlouvam že nemam na ukazku žádný pokrok.
+Bohužel jsem človek co když něco začne dělat musi to mit nejlepe hotove ten den. A jelikož mi tyto věci ješte nepřisly neměl jsem to jak sprovoznit.
+
+--------------------------
 
 Nástroje: 
 
