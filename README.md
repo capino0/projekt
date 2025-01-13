@@ -117,6 +117,6 @@ JetBrains s.r.o. (2000–2025). PyCharm. Dostupné z: https://www.jetbrains.com/
 
 OpenAI. (2023). ChatGPT Language Model. Dostupné z: https://openai.com/chatgpt [cit. 2025-1-5].
 
-Literatura:
+## Literatura:
 
 InterviewBit. (2021–2023). Python Commands List. Dostupné z: https://www.interviewbit.com/blog/python-commands/ [cit. 2025-1-5].
