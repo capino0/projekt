@@ -76,7 +76,7 @@ if D < 17:
 ### Vyhodnocení výsledku
 ```python
 if x > 21:
-    print("Prohrali jste!!!")
+    print("Presahli jste 21!!!")
 ```
 - Pokud součet hráče překročí 21, hráč prohrává.
 
