@@ -33,7 +33,7 @@ while x < 21:
         print("Prosím zadejte 'a' pro Ano nebo 'n' pro Ne.")
 
 if x > 21:
-    print("Presahrali jste!!!")
+    print("Presahli jste 21!!!")
 else:
 
     if D < 17:
