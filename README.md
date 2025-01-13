@@ -104,13 +104,14 @@ else:
 ## Poznámky
 - Tento kód je jednoduchou implementací a nezahrnuje pokročilá pravidla Blackjacku (např. esa za 1 nebo 11 bodů, sázení atd.).
 - Hru lze upravit a rozšířit o další funkce.
+- Ješte bych chěl poděkovat Nathanu Mulengovi za dodání nápadu na tento projekt.
 
 ## Licence
 Tento projekt je licencován pod licencí MIT.
 
 
 
-Nástroje: 
+## Nástroje: 
 
 JetBrains s.r.o. (2000–2025). PyCharm. Dostupné z: https://www.jetbrains.com/pycharm/download/?section=windows [cit. 2025-1-5].
 
