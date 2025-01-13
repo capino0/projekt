@@ -1,8 +1,8 @@
 # Blackjack Game
 
-Tento projekt obsahuje jednoduchou textovou implementaci hry Blackjack v Pythonu. Hra simuluje interakci mezi háčečem a dealerem, přičemž cílem je dosáhnout součtu 21 nebo co nejbližší hodnoty bez překročení tohoto čísla.
+Tento projekt obsahuje jednoduchou textovou implementaci hry Blackjack v Pythonu. Hra simuluje interakci mezi hráčem a dealerem, přičemž cílem je dosáhnout součtu 21 nebo co nejbližší hodnoty bez překročení tohoto čísla.
 
-## Popis jednotlivých prvků kódu
+## Vysvětlení kódu
 
 ### Import knihovny
 ```python
@@ -76,7 +76,7 @@ if D < 17:
 ### Vyhodnocení výsledku
 ```python
 if x > 21:
-    print("Presahrali jste!!!")
+    print("Prohrali jste!!!")
 ```
 - Pokud součet hráče překročí 21, hráč prohrává.
 
@@ -94,7 +94,7 @@ else:
 
 ## Jak spustit kód
 1. Ujistěte se, že máte nainstalovaný Python 3.
-2. Zkopírujte kód do souboru například `blackjack.py`.
+2. Stáhněte si soubor `blackjack.py` z tohoto repozitáře.
 3. Spusťte kód pomocí příkazu:
    ```bash
    python blackjack.py
@@ -103,7 +103,6 @@ else:
 
 ## Poznámky
 - Tento kód je jednoduchou implementací a nezahrnuje pokročilá pravidla Blackjacku (např. esa za 1 nebo 11 bodů, sázení atd.).
-- Hru lze upravit a rozšířit o další funkce.
 - Ješte bych chěl poděkovat Nathanu Mulengovi za dodání nápadu na tento projekt.
 - A Vítězslavovi Zigáčkovi za vysvětlení jak funguje Github.
 
