@@ -105,7 +105,7 @@ else:
 - Tento kód je jednoduchou implementací a nezahrnuje pokročilá pravidla Blackjacku (např. esa za 1 nebo 11 bodů, sázení atd.).
 - Hru lze upravit a rozšířit o další funkce.
 - Ješte bych chěl poděkovat Nathanu Mulengovi za dodání nápadu na tento projekt.
-- A Vítězslavovi Zigáčkovi za vysvětleni jak funguje Github.
+- A Vítězslavovi Zigáčkovi za vysvětlení jak funguje Github.
 
 ## Licence
 Tento projekt je licencován pod licencí MIT.
