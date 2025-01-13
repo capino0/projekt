@@ -1,19 +1,114 @@
-Tohle je jeden z mých dvou projektů. První byl RC autíčko, které se mi však nepovedlo, a ještě mi také nepřišly všechny díly. Tím to ale nekončí a já se ho pokusím zprovoznit přes prázdniny. Tady je zatím můj druhý projekt.
+# Blackjack Game
 
---------------------------
+Tento projekt obsahuje jednoduchou textovou implementaci hry Blackjack v Pythonu. Hra simuluje interakci mezi háčečem a dealerem, přičemž cílem je dosáhnout součtu 21 nebo co nejbližší hodnoty bez překročení tohoto čísla.
 
-Zadal jsem si že se chci naučit a zlepšit v programováni jelikož bych se tim jednou chtěl živit.
+## Popis jednotlivých prvků kódu
 
-Toto je jeden z mých prvních pokusů, karetní hra zvaná Black Jack. Dělal jsem to sám v Pythonu. Pracoval jsem s tím poprvé a jsem samouk, proto to není nic moc. Cílem však bylo porozumnět programovacimu jazyku Python jako takovému. Jelikož jsme se ve druháku učili v Pythonu jen jedno pololeti věci jsem chápal docela rychle. Musím však poděkovat mému spolubydlícímu Nathanovi z T3B že mi tento projekt vůbec navrhl k realizaci a nasledné pomoci když jsem nemohl najít kde v kódu byla chyba.
+### Import knihovny
+```python
+import random
+```
+Používá se k generování náhodných čísel, která reprezentují hodnoty jednotlivých karet.
 
---------------------------
+### Inicializace hry
+```python
+D1 = random.randrange(1, 11)
+D2 = random.randrange(1, 11)
+D3 = random.randrange(1, 11)
+D = D1 + D2
+```
+- `D1`, `D2` a `D3`: Náhodné hodnoty karet dealera (třetí karta může být použita později).
+- `D`: Součet prvních dvou karet dealera.
 
-RC auticko:
+```python
+x1 = random.randrange(1, 11)
+x2 = random.randrange(1, 11)
+x = x1 + x2
+```
+- `x1` a `x2`: Náhodné hodnoty prvních dvou karet hráče.
+- `x`: Součet hodnot karet hráče.
 
-Nemám doma ješte všechny díly. Chybí mi kola a transmitor s ovládáním. Mimo to mám připraveny doma všechny díly (motor na pohon a zatačení, kabely, sadu ozubených koleček a 3.7V baterku) až na ty kola a ovládací systém. Moc se omlouvám že nemám na ukázku žádný pokrok.
-Bohužel jsem človek co když něco začne dělat musí to mít nejlépe hotové ten den. A jelikož mi tyto věci ješte nepřisly neměl jsem to jak zprovoznit tak jsem se na to s prominutim vykašlal.
+### Zahájení hry
+```python
+print("Blackjack")
+print("dealer: ", D1)
+print("vy: ",x1, "a", x2)
+print("váš součet: ", x)
+```
+- Vypíše se úvadní informace o hodnotě první karty dealera a hodnotě karet hráče.
 
---------------------------
+### Průběh hry
+#### Možnost vzít další kartu
+```python
+while x < 21:
+    A = input("další karta? ")
+    y = random.randrange(1, 10)
+    if A == "a":
+        x = x + y
+        print("------------------")
+        print("karta otočena: ", y)
+        print("součet", x)
+        print("------------------")
+```
+- Pokud hráč zadá "a" (Ano), je mu přidělena nová karta s náhodnou hodnotou a součet se aktualizuje.
+
+#### Ukončení tahu
+```python
+    elif A == "n":
+        print("------------------")
+        print("druhá karta dealera: ", D2 )
+        print("součet dealera: ",D)
+        break
+```
+- Pokud hráč zadá "n" (Ne), tah končí a dealer odhalí svou druhou kartu.
+
+### Dealerova strategie
+```python
+if D < 17:
+    print("Dealer si vezme kartu.")
+    while D < 17:
+        o = random.randrange(1, 11)
+        D = D + o
+        print("Dealer si vezme kartu: ", o)
+```
+- Dealer si bere další karty, dokud jeho součet nedosáhne 17 nebo více.
+
+### Vyhodnocení výsledku
+```python
+if x > 21:
+    print("Presahrali jste!!!")
+```
+- Pokud součet hráče překročí 21, hráč prohrává.
+
+```python
+if D > 21:
+    print("Dealer přesáhl 21, VYHRÁLI JSTE!")
+elif x > D:
+    print("Vyhráli jste!")
+elif x < D:
+    print("Dealer vyhrál.")
+else:
+    print("Remíza.")
+```
+- Vyhodnocení, zda vyhrál hráč, dealer nebo zda hra skončila remízou.
+
+## Jak spustit kód
+1. Ujistěte se, že máte nainstalovaný Python 3.
+2. Zkopírujte kód do souboru například `blackjack.py`.
+3. Spusťte kód pomocí příkazu:
+   ```bash
+   python blackjack.py
+   ```
+4. Postupujte podle instrukcí na obrazovce.
+
+## Poznámky
+- Tento kód je jednoduchou implementací a nezahrnuje pokročilá pravidla Blackjacku (např. esa za 1 nebo 11 bodů, sázení atd.).
+- Hru lze upravit a rozšířit o další funkce.
+
+## Licence
+Tento projekt je licencován pod licencí MIT.
+
+
 
 Nástroje: 
 
